@@ -1,0 +1,82 @@
+/* style is here */
+
+* {
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background-color: grey ;
+    height: 50px;
+}
+
+header > div {
+    padding: 3px;
+    color: black;
+}
+body {
+    display: flexbox;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: column;
+}
+
+
+.topRow {
+    display: flex;
+    border: 2px;
+    text-align: center;
+    
+}
+
+.midRow {
+    display: flex;
+    border: 1px solid;
+    text-align: center;
+    position: relative;
+}
+
+.lowRow {
+    display: flex;
+    border: 1px solid;
+    text-align: center;
+}
+
+.column-top {
+    background: gray;
+    margin: 0 5px;
+}
+
+.column {
+    border: 1px solid blue;
+    width: 33.33%;
+        
+}
+
+.transText {
+    position: absolute;
+    width: 28%;
+    text-align: center;
+    background-color: lightyellow;
+    top: 50%;
+    justify-content: space-around;
+}
+
+footer {
+    background: lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-end;
+
+}
+
+footer > div {
+    padding: 2em;
+    color: black;
+  }
+
+  .fb {
+    background: orange;
+    
+  }
