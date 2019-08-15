@@ -5,7 +5,7 @@
 }
 header {
     display: flex;
-    background-color: grey ;
+    background-color: lightgrey ;
     height: 50px;
 }
 
@@ -24,7 +24,7 @@ body {
 .topRow {
     display: flex;
     border: 2px;
-    text-align: center;
+    
     
 }
 
@@ -61,22 +61,31 @@ body {
     justify-content: space-around;
 }
 
-footer {
-    background: lightblue;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-self: flex-end;
-
+img {
+    flex: 1;
 }
 
-footer > div {
-    padding: 2em;
-    color: black;
-  }
-
-  .fb {
-    background: orange;
+.seperator {
+    font-size: 14px;
     
-  }
+}
+
+footer {
+    background: lightgrey;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ ul li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 0 0 0 10px;
+    border: 1px solid none;
+    color: white;
+}
+
+
