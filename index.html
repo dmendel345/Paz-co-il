@@ -6,71 +6,122 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <header class="">
-        <div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">English</a>
-                    </li>
-                    <li>
-                        <input type="text" placeholder="Search..">
-                        <img src="\images\search_button.png" alt="search_button">
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+
+<header class="">
+    <div>
+        <nav>
+            <ul>
+                <li>
+                    <input type="text" placeholder="Search..">
+                    <img src="\images\search_button.png" alt="search_button">
+                </li>
+                <li>
+                    <a href="#">English</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body class="container">
     <div class="topRow">
         <!-- section with two icons-->
         <div class="column-top">
             <img src="\images\Paz_logo.png" alt="Paz-logo">
-            <div>
-                <div class="column-top">
-                    <a href="#">
-                        <img src="\images\menu_home.png" alt="menu_home">
-                        </a>
-                </div>
-            </div>
-            <div class="midRow">
-                <!-- middle section with big pictures and text above-->
-                <div class="column">
-                    <img src="\images\Gaz-station.jpg" alt="Gaz-station">
-                    <div class="transText">
-                        the text is above the picture with a 
-                        <a href="link">link</a>
-                    </div>
-                </div>
-                <div class="column">
-                        <img src="\images\refinery.jpg" alt="refinery">
-                        <div class="transText">
-                                the text is above the picture with a 
-                                <a href="link">link</a>
-                        </div>
-                </div>
-                <div class="column">
-                        <img src="\images\Service.jpg" alt="Service">
-                        <div class="transText">
-                                the text is above the picture with a 
-                                <a href="link">link</a>
-                        </div>
-                </div>
-            </div>
+        </div>
+        <div class="column-top">
+            <a href="#">
+                <img src="\images\Home.png" alt="menu_home">
+            </a>
+        </div>
+        <div>
+             <!-- section with navbar-->
+            <nav class="no-flexbox">
+                <ul>
+                    <li class="active">
+                        <a href="javascript:void(0)">אודות</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">חטיבות</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">אחריות תאגידית</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">קשרי משקיעים</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">התחנות שלנו</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">קריירה</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">חדשות ומדיה</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="midRow">
+        <!-- middle section with big pictures and text above-->
+        <div class="column">
+            <img src="\images\Gaz-station.jpg" alt="Gaz-station">
+            <div class="transText">
+                    קמעונאות ומסחר
 
-            <div class="lowRow">
-                <!-- lower section with small pictures and text aobove-->
-                <div class="column">
-                    picture 21
-                </div>
-                <div class="column">
-                    picture 22
-                </div>
-                <div class="column">
-                    picture 33
-                </div>
+                    במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה פועלת...
+                <a href="link">קרא עוד</a>
             </div>
+        </div>
+        <div class="column">
+            <img src="\images\refinery.jpg" alt="refinery">
+            <div class="transText">
+                the text is above the picture with a
+                <a href="link">link</a>
+            </div>
+        </div>
+        <div class="column">
+            <img src="\images\Service.jpg" alt="Service">
+            <div class="transText">
+                the text is above the picture with a
+                <a href="link">link</a>
+            </div>
+        </div>
+    </div>
 
+    <div class="lowRow">
+        <!-- lower section with small pictures and text aobove-->
+        <div class="column">
+            <img src="\images\discount.jpg" alt="discount">
+            <div class="">
+                the text is below the picture with a
+                <a href="link">link</a>
+            </div>
+        </div>
+        <div class="column">
+            <img src="\images\Ez.jpg" alt="Ez">
+            <div class="">
+                the text is below the picture with a
+                <a href="link">link</a>
+            </div>
+        </div>
+        <div class="column">
+            <img src="\images\Locations.jpg" alt="Locations">
+            <div class="">
+                the text is below the picture with a
+                <a href="link">link</a>
+            </div>
+            <div class="">
+                the text is below the picture with a
+                <a href="link">link</a>
+            </div>
+            <div class="">
+                the text is below the picture with a
+                <a href="link">link</a>
+            </div>
+        </div>
+    </div>
 </body>
 <!-- Footer with link and pictures -->
 <footer class="lowNavBar">
@@ -79,60 +130,63 @@
             <ul>
                 <li>
                     <a class="fb" href="http://www.facebook.com/YellowPaz" target="_blank">
-                    <img src="\images\fb_icon.png" alt="fb_icon">
+                        <img src="\images\fb_icon.png" alt="fb_icon">
                     </a>
                 </li>
                 <li>
-                        <a class="seperator">|</a>
-                    </li>
-                <li>
-                    <a href="#">Home</a>
+                    <a class="seperator">|</a>
                 </li>
                 <li>
-                        <a class="seperator">|</a>
-                    </li>
-                <li>
-                    <a href="#">Home</a>
+                    <a href="#">עמוד הבית</a>
                 </li>
                 <li>
-                        <a class="seperator">|</a>
-                    </li>
-                <li>
-                    <a href="#">Home</a>
+                    <a class="seperator">|</a>
                 </li>
                 <li>
-                        <a class="seperator">|</a>
-                    </li>
-                <li>
-                    <a href="#">Home</a>
+                    <a href="#">מחירונים</a>
                 </li>
                 <li>
-                    <a href="#">Home</a>
+                    <a class="seperator">|</a>
                 </li>
                 <li>
-                        <a class="seperator">|</a>
-                    </li>
-                <li>
-                    <a href="#">Home</a>
+                    <a href="#">קריירה</a>
                 </li>
                 <li>
-                        <a class="seperator">|</a>
-                    </li>
-                <li>
-                    <a href="#">Home</a>
+                    <a class="seperator">|</a>
                 </li>
                 <li>
-                        <a class="seperator">|</a>
-                    </li>
+                    <a href="#">תנאי שימוש</a>
+                </li>
                 <li>
-                    <a href="#">Home</a>
+                    <a class="seperator">|</a>
+                </li>
+                <li>
+                    <a href="#">נגישות</a>
+                </li>
+                <li>
+                    <a class="seperator">|</a>
+                </li>
+                <li>
+                    <a href="#">מפת אתר</a>
+                </li>
+                <li>
+                    <a class="seperator">|</a>
+                </li>
+                <li>
+                    <a href="#">צור קשר</a>
+                </li>
+                <li>
+                    <a class="seperator">|</a>
+                </li>
+                <li>
+                    <a href="#">שטחי מסחר</a>
+                </li>
+                <li>
+                    <a href="#">הסדר פשרה בתובענה הייצוגית בעניין הסדר פזומט</a>
                 </li>
             </ul>
         </nav>
     </div>
-    <!-- <div class="fb">picture</div>
-    <div>links</div>
-    <div>extra link</div> -->
 </footer>
 
 </html>

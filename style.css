@@ -3,28 +3,34 @@
 * {
     box-sizing: border-box;
 }
+
 header {
-    display: flex;
     background-color: lightgrey ;
     height: 50px;
+
 }
 
 header > div {
     padding: 3px;
     color: black;
 }
+
 body {
     display: flexbox;
-    margin-left: 100px;
-    margin-right: 100px;
     flex-direction: column;
+    direction: rtl;
+    font-family: 'Arial (Hebrew)', Arial;
 }
 
+.container {
+    width: 900px;
+    margin: auto;
+  }
 
 .topRow {
     display: flex;
     border: 2px;
-    
+    vertical-align: bottom;
     
 }
 
@@ -42,7 +48,7 @@ body {
 }
 
 .column-top {
-    background: gray;
+    background: none;
     margin: 0 5px;
 }
 
@@ -55,10 +61,10 @@ body {
 .transText {
     position: absolute;
     width: 28%;
-    text-align: center;
-    background-color: lightyellow;
-    top: 50%;
+    background-color: lightgrey;
+    top: 70%;
     justify-content: space-around;
+    background: transparent;
 }
 
 img {
@@ -67,7 +73,7 @@ img {
 
 .seperator {
     font-size: 14px;
-    
+
 }
 
 footer {
@@ -75,7 +81,8 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-
+    font-size: 14px;
+    height: 38px;
  }
 
  ul li {
