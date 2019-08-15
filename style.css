@@ -6,6 +6,10 @@
 
 header {
     background-color: lightgrey ;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
     height: 50px;
 
 }
@@ -20,6 +24,7 @@ body {
     flex-direction: column;
     direction: rtl;
     font-family: 'Arial (Hebrew)', Arial;
+    top: 50px;
 }
 
 .container {
@@ -47,24 +52,40 @@ body {
     text-align: center;
 }
 
+.space {
+    height: 20px;
+    white-space: normal;
+}
+
 .column-top {
     background: none;
-    margin: 0 5px;
+    margin: 0 3px;
 }
 
 .column {
-    border: 1px solid blue;
+    border: 1px solid;
     width: 33.33%;
 
-        
+}
+
+.column-column {
+    display: flex;
+    justify-content:flex-end;
+}
+
+.column-right {
+    justify-content:flex-start;
+
 }
 
 .transText {
     position: absolute;
     width: 28%;
-    background-color: lightgrey;
-    top: 70%;
+    background-color: rgb(211, 211, 211);
+    top: 60%;
     font-size: 12px;
+    margin-right: 20px;
+    background-blend-mode: lighten;
 
 }
 
@@ -83,7 +104,11 @@ footer {
     display: flex;
     flex-direction: column;
     font-size: 14px;
-    height: 38px;
+    height: 40px;
+    padding: 1;
+    margin: 1;
+    bottom: 0px;
+    position: fixed;
  }
 
  ul li {
