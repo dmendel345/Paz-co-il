@@ -55,6 +55,7 @@ body {
 .column {
     border: 1px solid blue;
     width: 33.33%;
+
         
 }
 
@@ -63,8 +64,8 @@ body {
     width: 28%;
     background-color: lightgrey;
     top: 70%;
-    justify-content: space-around;
-    background: transparent;
+    font-size: 12px;
+
 }
 
 img {
