@@ -36,7 +36,8 @@ body {
     display: flex;
     border: 2px;
     vertical-align: bottom;
-    
+    background-color: lightgrey ;
+     
 }
 
 .midRow {
@@ -92,6 +93,16 @@ body {
 
 img {
     flex: 1;
+    /* display: block;
+    width: 142px;
+    height: 93px;
+    position: absolute; */
+}
+
+.paz-logo {
+    display: block;
+    width: 142px;
+    height: 93px;
 }
 
 .seperator {
@@ -123,3 +134,86 @@ footer {
 }
 
 
+.theform {
+    background-color: lightgrey;
+    border: 1px solid;
+}
+
+.sideform-up {
+    background-color: lightgrey;
+    border: 1px solid;
+
+}
+
+.sideform-down {
+    background-color: lightgrey;
+    border: 1px solid;
+
+}
+
+.sideform-menu {
+    float: right;
+    width: 122px;
+    margin-left: 22px;
+}
+
+/* NavBar */
+.navbar {
+    overflow: hidden;
+    background-color: lightgrey;
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:lightgrey;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

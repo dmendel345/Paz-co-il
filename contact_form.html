@@ -6,62 +6,89 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
-    <form name="pazform" method="post" action="html_form_send.php">
-        <table width="450px">
-            <tr>
-                <td valign="top">
-                    <label for="first_name">שם פרטי *</label>
-                </td>
-                <td valign="top">
-                    <input type="text" name="first_name" maxlength="50" size="30">
-                </td>
-            </tr>
-            <tr>
-                <td valign="top"">
+<body class="container">
+    <div>
+        <div class="sideform-menu">
+            <ul>
+                <li>
+                    <a href="#">צור קשר</a>
+                </li>
+            </ul>
+        </div>
+        <h4>צור קשר</h4>
+    <div class="theform ">
+        <form name="pazform" method="post" action="html_form_send.php">
+            <h4>צור קשר</h4>
+            <p>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</p>
+            <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
+            <table class="">
+                <tr>
+                    <td valign="top">
+                        <label for="first_name">שם פרטי *</label>
+                    </td>
+                    <td valign="top">
+                        <input type="text" name="first_name" maxlength="50" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"">
                   <label for=" last_name">שם משפחה *</label>
-                </td>
-                <td valign="top">
-                    <input type="text" name="last_name" maxlength="50" size="30">
-                </td>
-            </tr>
-            <tr>
-                <td valign="top">
-                    <label for="telephone">טלפון *</label>
-                </td>
-                <td valign="top">
-                    <input type="text" name="telephone" maxlength="30" size="30">
-                </td>
-            </tr>
-            <tr>
-                <td valign="top">
-                    <label for="email">E-mail *</label>
-                </td>
-                <td valign="top">
-                    <input type="text" name="email" maxlength="80" size="30">
-                </td>
+                    </td>
+                    <td valign="top">
+                        <input type="text" name="last_name" maxlength="50" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <label for="telephone">טלפון *</label>
+                    </td>
+                    <td valign="top">
+                        <input type="text" name="telephone" maxlength="30" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <label for="email">E-mail *</label>
+                    </td>
+                    <td valign="top">
+                        <input type="text" name="email" maxlength="80" size="30">
+                    </td>
 
-            </tr>
-            <tr>
-                <td valign="top">
-                    <label for="comments"></label>
-                </td>
-                <td valign="top">
-                    <textarea name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-                </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <label for="comments"></label>
+                    </td>
+                    <td valign="top">
+                        <textarea name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                    </td>
 
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align:center">
-                    <input type="submit" value="Submit">
-                </td>
-            </tr>
-        </table>
-    </form>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center">
+                        <input type="submit" value="שלח">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="sideform-up">
+        <h3>פרטי יצירת קשר</h3>
+        <h4>פז חברת נפט בע"מ</h4>
+        <p>יורו פארק, בניין הולנד
+            קיבוץ יקום 60972
+            טל. שירות לקוחות 1-800-774-774
+            פקס.09-8641714</p>
+    </div>
 
-
-
+    <div class="sideform-down">
+        <h3>עוד בפז</h3>
+        <p>ליצירת קשר עם דוברות פז</p>
+        <a href="#">לחצו כאן >></a>
+        <p>רוצים לעבוד בפז?</p>
+        <a href="#">לחצו כאן >></a>
+    </div>
+    </div>
 </body>
 
 </html>
