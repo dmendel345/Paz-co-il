@@ -20,7 +20,6 @@ header > div {
 }
 
 body {
-    display: flexbox;
     flex-direction: column;
     direction: rtl;
     font-family: 'Arial (Hebrew)', Arial;
@@ -36,7 +35,7 @@ body {
     display: flex;
     border: 2px;
     vertical-align: bottom;
-    background-color: whitesmoke;
+    background-color: lightgrey;
      
 }
 
@@ -122,7 +121,8 @@ footer {
     height: 40px;
     /* padding: 1; */
     /* margin: 1; */
-    bottom: 0px;
+    bottom: 0;
+    left: 0;
     position: fixed;
  }
 
@@ -137,33 +137,43 @@ footer {
 }
 
 
-.theform {
-    background-color: lightgrey;
-    border: 1px solid;
-}
-
-.sideform-up {
-    background-color: lightgrey;
-    border: 1px solid;
-
-}
-
-.sideform-down {
-    background-color: lightgrey;
-    border: 1px solid;
-
-}
-
-.sideform-menu {
+/* contact form */
+.contact-form {
     float: right;
-    width: 122px;
-    margin-left: 22px;
+    width: 200px;
+    padding: 15px 10px;
+    
+
+}
+
+
+.row {
+display: flex;
+width: 90%;
+}
+
+.form-column {
+flex: 50%;
+padding: 10px;
+background-color: lightgrey;
+height: auto;
+border: 2px;
+
+}
+
+.text-column {
+flex: 50%;
+padding: 10px;
+background-color: lightgrey;
+height: 100px;
+border: 2px;
+
 }
 
 /* NavBar */
 .navbar {
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: lightgrey;
   }
   
   .navbar a {
