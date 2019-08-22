@@ -81,7 +81,7 @@ body {
 .transText {
     position: absolute;
     width: 28%;
-    background-color: rgb(211, 211, 211);
+    background-color: rgba(211, 211, 211, 0.973);
     top: 60%;
     font-size: 12px;
     margin-right: 20px;
@@ -92,6 +92,10 @@ body {
 img {
     flex: 1;
 
+}
+
+.img-midRow {
+    padding:5px;
 }
 
 .paz-logo {
