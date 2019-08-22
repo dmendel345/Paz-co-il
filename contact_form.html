@@ -7,92 +7,269 @@
 </head>
 
 <body class="">
-    <div class='contact-form'>
-        <div class="row">
-            <div class="sideform-menu">
+    <header class="">
+        <div>
+            <nav>
                 <ul>
                     <li>
-                        <a href="#">צור קשר</a>
+                        <a href="#">English</a>
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Search..">
+                        <img src="\images\search_button.png" alt="search_button">
                     </li>
                 </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- pazlogo -->
+    <div class="container">
+        <div class="topRow">
+            <!-- section with two icons-->
+            <div class="column-top paz-logo">
+                <img src="\images\Paz_logo.png" alt="Paz-logo">
             </div>
-            <div class='form-column'>
-                <form name="pazform" method="post" action="html_form_send.php">
-                    <h4>צור קשר</h4>
-                    <p>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</p>
-                    <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
-                    <table class="">
-                        <tr>
-                            <td valign="top">
-                                <label for="first_name">שם פרטי *</label>
-                            </td>
-                            <td valign="top">
-                                <input type="text" name="first_name" maxlength="50" size="30">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td valign="top">
-                                <label for=" last_name">שם משפחה *</label>
-                            </td>
-                            <td valign="top">
-                                <input type="text" name="last_name" maxlength="50" size="30">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td valign="top">
-                                <label for="telephone">טלפון *</label>
-                            </td>
-                            <td valign="top">
-                                <input type="text" name="telephone" maxlength="30" size="30">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td valign="top">
-                                <label for="email">E-mail *</label>
-                            </td>
-                            <td valign="top">
-                                <input type="text" name="email" maxlength="80" size="30">
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td valign="top">
-                                <label for="comments"></label>
-                            </td>
-                            <td valign="top">
-                                <textarea name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td colspan="2" style="text-align:center">
-                                <input type="submit" value="שלח">
-                            </td>
-                        </tr>
-                    </table>
-                </form>
+            <div class="column-top">
+                <a href="index.html">
+                    <img src="\images\Home.png" alt="menu_home">
+                </a>
             </div>
+            <div>
+                <!-- section with top navbar-->
+                <nav class="no-flexbox">
 
-            <div class='text-column'>
-                <div class="sideform-up">
-                    <h3>פרטי יצירת קשר</h3>
-                    <h4>פז חברת נפט בע"מ</h4>
-                    <p>יורו פארק, בניין הולנד
-                        קיבוץ יקום 60972
-                        טל. שירות לקוחות 1-800-774-774
-                        פקס.09-8641714</p>
+                    <div class="navbar">
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <a href="#">אודות</a>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">היסטוריה</a>
+                                <a class="sep"></a>
+                                <a href="#">חזון וערכים</a>
+                                <a class="sep"></a>
+                                <a href="#">מבנה הקבוצה</a>
+                                <a class="sep"></a>
+                                <a href="#">חברי דירקטוריון</a>
+                                <a class="sep"></a>
+                                <a href="#">הנהלת הקבוצה</a>
+                                <a class="sep"></a>
+                                <a href="#">פרסים והוקרה</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <a href="#">חטיבות</a>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">קמעונאות ומסחר</a>
+                                <a class="sep"></a>
+                                <a href="#">תעשיות ושירותים</a>
+                                <a class="sep"></a>
+                                <a href="#">זיקוק</a>
+                                <a class="sep"></a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <a href="#">אחריות תאגידית</a>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">אחריות תאגידית</a>
+                                <a class="sep"></a>
+                                <a href="#">הקוד האתי</a>
+                                <a class="sep"></a>
+                                <a href="#">מעורבות חברתית</a>
+                                <a class="sep"></a>
+                                <a href="#">נגישות</a>
+                                <a class="sep"></a>
+                                <a href="#">איכות הסביבה ובטיחות</a>
+                                <a class="sep"></a>
+                                <a href="#">דירוג מעלה</a>
+                                <a class="sep"></a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <a href="#">קשרי משקיעים</a>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">פרופיל חברה</a>
+                                <a class="sep"></a>
+                                <a href="#">דו"חות כספיים</a>
+                                <a class="sep"></a>
+                                <a href="#">כלים למשקיע</a>
+                                <a class="sep"></a>
+                                <a href="#">נתוני מניה</a>
+                                <a class="sep"></a>
+                                <a href="#">אסיפות כלליות</a>
+                                <a class="sep"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <div class="row">
+                <div class="sideform-menu">
+                    <ul>
+                        <li>
+                            <a href="#">צור קשר</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form-column">
+                    <form name="pazform" method="post" action="html_form_send.php">
+                        <h4>צור קשר</h4>
+                        <p>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</p>
+                        <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
+                        <table class="">
+                            <tr>
+                                <td valign="top">
+                                    <label for="first_name">שם פרטי *</label>
+                                </td>
+                                <td valign="top">
+                                    <input type="text" name="first_name" maxlength="50" size="30">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <label for=" last_name">שם משפחה *</label>
+                                </td>
+                                <td valign="top">
+                                    <input type="text" name="last_name" maxlength="50" size="30">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <label for="telephone">טלפון *</label>
+                                </td>
+                                <td valign="top">
+                                    <input type="text" name="telephone" maxlength="30" size="30">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <label for="email">E-mail *</label>
+                                </td>
+                                <td valign="top">
+                                    <input type="text" name="email" maxlength="80" size="30">
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <label for="comments"></label>
+                                </td>
+                                <td valign="top">
+                                    <textarea name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="text-align:center">
+                                    <input type="submit" value="שלח">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
                 </div>
 
-                <div class="sideform-down">
-                    <h3>עוד בפז</h3>
-                    <p>ליצירת קשר עם דוברות פז</p>
-                    <a href="#">לחצו כאן >></a>
-                    <p>רוצים לעבוד בפז?</p>
-                    <a href="#">לחצו כאן >></a>
+                <div class="space-form">
+
+                </div>
+
+                <div class="text-column">
+                    <div class="sideform-up">
+                        <h3>פרטי יצירת קשר</h3>
+                        <h4>פז חברת נפט בע"מ</h4>
+                        <p>יורו פארק, בניין הולנד
+                            קיבוץ יקום 60972
+                            טל. שירות לקוחות 1-800-774-774
+                            פקס.09-8641714</p>
+                    </div>
+
+                    <div class="sideform-down">
+                        <h3>עוד בפז</h3>
+                        <p>ליצירת קשר עם דוברות פז</p>
+                        <a href="#">לחצו כאן >></a>
+                        <p>רוצים לעבוד בפז?</p>
+                        <a href="#">לחצו כאן >></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+
+
+        <!-- Footer with link and pictures -->
+        <footer class="lowNavBar">
+            <div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="fb" href="http://www.facebook.com/YellowPaz" target="_blank">
+                                <img src="\images\fb_icon.png" alt="fb_icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="seperator">|</a>
+                        </li>
+                        <li>
+                            <a href="#">עמוד הבית</a>
+                        </li>
+                        <li>
+                            <a class="seperator">|</a>
+                        </li>
+                        <li>
+                            <a href="#">מחירונים</a>
+                        </li>
+                        <li>
+                            <a class="seperator">|</a>
+                        </li>
+                        <li>
+                            <a href="#">קריירה</a>
+                        </li>
+                        <li>
+                            <a class="seperator">|</a>
+                        </li>
+                        <li>
+                            <a href="#">תנאי שימוש</a>
+                        </li>
+                        <li>
+                            <a class="seperator">|</a>
+                        </li>
+                        <li>
+                            <a href="#">נגישות</a>
+                        </li>
+                        <li>
+                            <a class="seperator">|</a>
+                        </li>
+                        <li>
+                            <a href="#">מפת אתר</a>
+                        </li>
+                        <li>
+                            <a class="seperator">|</a>
+                        </li>
+                        <li>
+                            <a href="contact_form.html">צור קשר</a>
+                        </li>
+                        <li>
+                            <a class="seperator">|</a>
+                        </li>
+                        <li>
+                            <a href="#">שטחי מסחר</a>
+                        </li>
+                        <li>
+                            <a href="#">הסדר פשרה בתובענה הייצוגית בעניין הסדר פזומט</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
 </body>
 
 </html>
