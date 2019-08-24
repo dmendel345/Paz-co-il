@@ -179,33 +179,33 @@ width: 90%;
 .form-column {
 flex: 50%;
 padding: 10px;
-background-color: #aaa;
-border: 2px;
+background-color: rgb(236, 232, 232);
+border: 0.5px solid #aaa ;
 
 }
 
 .text-column {
 flex: 50%;
 padding: 10px;
-background-color: #aaa;
+
 height: auto;
-border: 2px;
+border: 0.5px  #aaa;
 
 }
 
 .sideform-up {
     padding: 10px;
-    background-color: #aaa;
+    background-color: rgb(236, 232, 232);
     height: auto;
-    border: 2px hidden;
+    border: 0.5px solid #aaa;
     font-size: 13px;
 }
 
 .sideform-down {
     padding: 10px;
-    background-color: #aaa;
+    background-color: rgb(236, 232, 232);
     height: auto;
-    border: 2px hidden;
+    border: 0.5px solid #aaa;
     font-size: 13px;
 
 }
