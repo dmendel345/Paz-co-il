@@ -5,18 +5,29 @@
 }
 
 header {
-    background-color: lightgrey ;
+    background-color: #aaa ;
     display: flex;
     flex-direction: column;
     text-align: left;
     width: 100%;
-    height: 50px;
+    height: 45px;
+    font-size: 12px;
+    font-weight: bold;
 
 }
 
 header > div {
-    padding: 3px;
+    padding-left: 200px;
     color: black;
+
+}
+
+div > a {
+    text-decoration: none;
+}
+
+li > a {
+    text-decoration: none;
 }
 
 body {
@@ -33,9 +44,13 @@ body {
 
 .topRow {
     display: flex;
+    flex-direction: row;
     border: 2px;
     vertical-align: bottom;
-    background-color: lightgrey;
+    background-color:#aaa;
+    width:100%;
+    height: 60px;
+    padding-right: 250px;
      
 }
 
@@ -47,7 +62,7 @@ body {
 
 .lowRow {
     display: flex;
-    border: 1px solid;
+    /* border: 1px solid; */
     text-align: center;
 }
 
@@ -59,10 +74,11 @@ body {
 .column-top {
     background: none;
     margin: 0 3px;
+
 }
 
 .column {
-    border: 1px solid;
+    border: 0.5px solid lightslategray;
     width: 33.33%;
     border-bottom-right-radius:40px;
 
@@ -85,7 +101,7 @@ body {
     top: 60%;
     font-size: 12px;
     margin-right: 20px;
-    background-blend-mode: lighten;
+    opacity: 0.6;
 
 }
 
@@ -113,7 +129,7 @@ img {
 }
 
 footer {
-    background: lightgrey;
+    background: #aaa;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -124,7 +140,8 @@ footer {
     bottom: 0;
     left: 0;
     position: fixed;
- }
+
+}
 
  ul li {
     list-style: none;
@@ -134,6 +151,7 @@ footer {
     margin: 0 0 0 10px;
     border: 1px solid none;
     color: white;
+
 }
 
 
@@ -142,6 +160,7 @@ footer {
     float: right;
     width: auto;
     padding: 10px;
+    margin-bottom: 20px;
   }
 
   .sideform-menu {
@@ -157,7 +176,7 @@ width: 90%;
 .form-column {
 flex: 50%;
 padding: 10px;
-background-color: lightgrey;
+background-color: #aaa;
 border: 2px;
 
 }
@@ -165,7 +184,7 @@ border: 2px;
 .text-column {
 flex: 50%;
 padding: 10px;
-background-color: lightgrey;
+background-color: #aaa;
 height: auto;
 border: 2px;
 
@@ -173,7 +192,7 @@ border: 2px;
 
 .sideform-up {
     padding: 10px;
-    background-color: lightgrey;
+    background-color: #aaa;
     height: auto;
     border: 2px hidden;
     font-size: 13px;
@@ -181,7 +200,7 @@ border: 2px;
 
 .sideform-down {
     padding: 10px;
-    background-color: lightgrey;
+    background-color: #aaa;
     height: auto;
     border: 2px hidden;
     font-size: 13px;
@@ -195,7 +214,7 @@ border: 2px;
 /* NavBar */
 .navbar {
     overflow: hidden;
-    background-color: lightgrey transparent;
+    background-color: #aaa transparent;
   }
   
   .navbar a {
@@ -224,7 +243,7 @@ border: 2px;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color:lightgrey;
+    background-color:#aaa;
   }
   
   .dropdown-content {
