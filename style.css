@@ -84,14 +84,17 @@ body {
 
 }
 
-.column-column {
+.column-pic {
     display: flex;
     justify-content:flex-end;
+    padding-left: 50px;
+
 }
 
 .column-right {
     justify-content:flex-start;
-
+    padding-left: 30px;
+    
 }
 
 .transText {
